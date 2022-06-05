@@ -150,9 +150,7 @@ public class SignUp extends Application {
                  t.setFill(Color.YELLOW);
                  t.setFont(Font.font("TIMES NEW", FontWeight.BOLD, FontPosture.ITALIC, 100));
                  Reflection r=new Reflection();
-//                 r.setFractional(0.7f);
                  t.setEffect(r);
-//                 t.setTransletY(400);
                  grid2.add(t, 1, 1);
                  BackgroundFill bg_fill=new BackgroundFill(Color.BLACK,CornerRadii.EMPTY,Insets.EMPTY);
                  Background bg=new Background(bg_fill);
